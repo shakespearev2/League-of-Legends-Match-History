@@ -60,7 +60,7 @@ def start_history():
                 assists = getmatches["info"]['participants'][counter]['assists']
                 champselect = getmatches["info"]['participants'][counter]['championName']
                 win = getmatches["info"]['participants'][counter]["win"]
-                return ls1.insert("end", f"Champion: {champselect}, Kill: {kills}, Death: {deaths}, Assists: {assists}, Win: {assists}")
+                return ls1.insert("end", f"Champion: {champselect}, Kill: {kills}, Death: {deaths}, Assists: {assists}, Win: {win}")
 
             matchhistory()
             matchcount += 1
@@ -79,8 +79,8 @@ get_read_api = read_api()
 #WINDOW
 
 window = tkinter.Tk()
-window.configure(background='orange')
-window.title = "safasfa"
+window.configure(background='honeydew2')
+window.title = ("League of Legends Match History")
 
 window_height = 450
 window_width = 430
