@@ -79,7 +79,7 @@ get_read_api = read_api()
 #WINDOW
 
 window = tkinter.Tk()
-window.configure(background='honeydew2')
+window.configure(background='lightsteelblue2')
 window.title = ("League of Legends Match History")
 
 window_height = 450
